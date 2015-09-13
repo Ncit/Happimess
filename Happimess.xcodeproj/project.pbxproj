@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		529BFF8C1BA58EFA0030A892 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529BFF8B1BA58EFA0030A892 /* AppDelegate.swift */; };
+		529BFF8E1BA58EFA0030A892 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529BFF8D1BA58EFA0030A892 /* ViewController.swift */; };
+		529BFF911BA58EFA0030A892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529BFF8F1BA58EFA0030A892 /* Main.storyboard */; };
+		529BFF931BA58EFA0030A892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529BFF921BA58EFA0030A892 /* Assets.xcassets */; };
+		529BFF961BA58EFA0030A892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529BFF941BA58EFA0030A892 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		529BFF881BA58EFA0030A892 /* Happimess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happimess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		529BFF8B1BA58EFA0030A892 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		529BFF8D1BA58EFA0030A892 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		529BFF901BA58EFA0030A892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		529BFF921BA58EFA0030A892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		529BFF951BA58EFA0030A892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		529BFF971BA58EFA0030A892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		529BFF851BA58EFA0030A892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		529BFF7F1BA58EFA0030A892 = {
+			isa = PBXGroup;
+			children = (
+				529BFF8A1BA58EFA0030A892 /* Happimess */,
+				529BFF891BA58EFA0030A892 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		529BFF891BA58EFA0030A892 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				529BFF881BA58EFA0030A892 /* Happimess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		529BFF8A1BA58EFA0030A892 /* Happimess */ = {
+			isa = PBXGroup;
+			children = (
+				529BFF8B1BA58EFA0030A892 /* AppDelegate.swift */,
+				529BFF8D1BA58EFA0030A892 /* ViewController.swift */,
+				529BFF8F1BA58EFA0030A892 /* Main.storyboard */,
+				529BFF921BA58EFA0030A892 /* Assets.xcassets */,
+				529BFF941BA58EFA0030A892 /* LaunchScreen.storyboard */,
+				529BFF971BA58EFA0030A892 /* Info.plist */,
+			);
+			path = Happimess;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		529BFF871BA58EFA0030A892 /* Happimess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529BFF9A1BA58EFA0030A892 /* Build configuration list for PBXNativeTarget "Happimess" */;
+			buildPhases = (
+				529BFF841BA58EFA0030A892 /* Sources */,
+				529BFF851BA58EFA0030A892 /* Frameworks */,
+				529BFF861BA58EFA0030A892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Happimess;
+			productName = Happimess;
+			productReference = 529BFF881BA58EFA0030A892 /* Happimess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		529BFF801BA58EFA0030A892 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Nikita Feshchun";
+				TargetAttributes = {
+					529BFF871BA58EFA0030A892 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 529BFF831BA58EFA0030A892 /* Build configuration list for PBXProject "Happimess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 529BFF7F1BA58EFA0030A892;
+			productRefGroup = 529BFF891BA58EFA0030A892 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				529BFF871BA58EFA0030A892 /* Happimess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		529BFF861BA58EFA0030A892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529BFF961BA58EFA0030A892 /* LaunchScreen.storyboard in Resources */,
+				529BFF931BA58EFA0030A892 /* Assets.xcassets in Resources */,
+				529BFF911BA58EFA0030A892 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		529BFF841BA58EFA0030A892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529BFF8E1BA58EFA0030A892 /* ViewController.swift in Sources */,
+				529BFF8C1BA58EFA0030A892 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		529BFF8F1BA58EFA0030A892 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				529BFF901BA58EFA0030A892 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		529BFF941BA58EFA0030A892 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				529BFF951BA58EFA0030A892 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		529BFF981BA58EFA0030A892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		529BFF991BA58EFA0030A892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		529BFF9B1BA58EFA0030A892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Happimess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Happimess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		529BFF9C1BA58EFA0030A892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Happimess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Happimess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		529BFF831BA58EFA0030A892 /* Build configuration list for PBXProject "Happimess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529BFF981BA58EFA0030A892 /* Debug */,
+				529BFF991BA58EFA0030A892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		529BFF9A1BA58EFA0030A892 /* Build configuration list for PBXNativeTarget "Happimess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529BFF9B1BA58EFA0030A892 /* Debug */,
+				529BFF9C1BA58EFA0030A892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 529BFF801BA58EFA0030A892 /* Project object */;
+}
