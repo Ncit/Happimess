@@ -45,7 +45,7 @@ class ConfirmProfileViewController : UIViewController,UIPickerViewDelegate,UIPic
         avatar.layer.borderColor = UIColor.whiteColor().CGColor
         avatar.layer.cornerRadius = avatar.frame.height/2
         avatar.clipsToBounds = true
-         imagePicker.delegate = self
+        imagePicker.delegate = self
     }
     
     @IBAction func initdeparment(sender: AnyObject) {

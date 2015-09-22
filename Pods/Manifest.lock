@@ -1,17 +1,20 @@
 PODS:
   - Bolts/Tasks (1.2.2)
+  - BTNavigationDropdownMenu (0.1.8)
   - JVFloatLabeledTextField (1.1.0)
   - Parse (1.8.5):
     - Bolts/Tasks (>= 1.2.2)
   - VK-ios-sdk (1.2.2)
 
 DEPENDENCIES:
+  - BTNavigationDropdownMenu
   - JVFloatLabeledTextField
   - Parse
   - VK-ios-sdk
 
 SPEC CHECKSUMS:
   Bolts: 20a2bd788273360cb1e31530dc19b8544eef2544
+  BTNavigationDropdownMenu: 23403214197d8fb208dd0ad996e3d236748473c9
   JVFloatLabeledTextField: ea4a3d8387ddd43724c472bb2b8ab39b79af05d4
   Parse: 17ad8e0677ed682f7f00503860fcda0f4eb74168
   VK-ios-sdk: f4b7df0d4e277e06d60fef6dc472be4260eeda6d

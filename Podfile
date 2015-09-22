@@ -5,4 +5,5 @@ target 'Happimess' do
 pod 'Parse'
 pod "VK-ios-sdk"
 pod 'JVFloatLabeledTextField'
+pod 'BTNavigationDropdownMenu'
 end
