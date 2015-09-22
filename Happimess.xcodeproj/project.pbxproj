@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520A5C661BB14D6800A1AFF4 /* SearchUniversity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520A5C651BB14D6800A1AFF4 /* SearchUniversity.swift */; };
+		520A5C681BB1525900A1AFF4 /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520A5C671BB1525900A1AFF4 /* University.swift */; };
+		5248774A1BAFFE3E00791F2B /* ConfirmProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524877491BAFFE3E00791F2B /* ConfirmProfileViewController.swift */; };
 		529BFF8C1BA58EFA0030A892 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529BFF8B1BA58EFA0030A892 /* AppDelegate.swift */; };
 		529BFF8E1BA58EFA0030A892 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529BFF8D1BA58EFA0030A892 /* ViewController.swift */; };
 		529BFF911BA58EFA0030A892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529BFF8F1BA58EFA0030A892 /* Main.storyboard */; };
 		529BFF931BA58EFA0030A892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529BFF921BA58EFA0030A892 /* Assets.xcassets */; };
 		529BFF961BA58EFA0030A892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529BFF941BA58EFA0030A892 /* LaunchScreen.storyboard */; };
+		52FF206B1BA69646005CFF66 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FF20671BA69646005CFF66 /* FBSDKCoreKit.framework */; };
+		52FF206C1BA69646005CFF66 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FF20681BA69646005CFF66 /* FBSDKLoginKit.framework */; };
+		52FF206D1BA69646005CFF66 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FF20691BA69646005CFF66 /* FBSDKMessengerShareKit.framework */; };
+		52FF206E1BA69646005CFF66 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FF206A1BA69646005CFF66 /* FBSDKShareKit.framework */; };
+		52FF20701BA69C4E005CFF66 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52FF206F1BA69C4E005CFF66 /* FacebookSDKStrings.bundle */; };
+		E6A1644C4B5C7CC642C64185 /* Pods_Happimess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3FD157A8D722C26D4A858F /* Pods_Happimess.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		520A5C651BB14D6800A1AFF4 /* SearchUniversity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUniversity.swift; sourceTree = "<group>"; };
+		520A5C671BB1525900A1AFF4 /* University.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		524877491BAFFE3E00791F2B /* ConfirmProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmProfileViewController.swift; sourceTree = "<group>"; };
 		529BFF881BA58EFA0030A892 /* Happimess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happimess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529BFF8B1BA58EFA0030A892 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		529BFF8D1BA58EFA0030A892 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,14 @@
 		529BFF921BA58EFA0030A892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		529BFF951BA58EFA0030A892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		529BFF971BA58EFA0030A892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FF20671BA69646005CFF66 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		52FF20681BA69646005CFF66 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		52FF20691BA69646005CFF66 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		52FF206A1BA69646005CFF66 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		52FF206F1BA69C4E005CFF66 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		8C78C9E17DD0A3718E212D9E /* Pods-Happimess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happimess.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Happimess/Pods-Happimess.debug.xcconfig"; sourceTree = "<group>"; };
+		B017F3A7C2C9242B20374031 /* Pods-Happimess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happimess.release.xcconfig"; path = "Pods/Target Support Files/Pods-Happimess/Pods-Happimess.release.xcconfig"; sourceTree = "<group>"; };
+		DD3FD157A8D722C26D4A858F /* Pods_Happimess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Happimess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FF206D1BA69646005CFF66 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				E6A1644C4B5C7CC642C64185 /* Pods_Happimess.framework in Frameworks */,
+				52FF206E1BA69646005CFF66 /* FBSDKShareKit.framework in Frameworks */,
+				52FF206B1BA69646005CFF66 /* FBSDKCoreKit.framework in Frameworks */,
+				52FF206C1BA69646005CFF66 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45FF6332AC103BC1F388380F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52FF206F1BA69C4E005CFF66 /* FacebookSDKStrings.bundle */,
+				52FF20671BA69646005CFF66 /* FBSDKCoreKit.framework */,
+				52FF20681BA69646005CFF66 /* FBSDKLoginKit.framework */,
+				52FF20691BA69646005CFF66 /* FBSDKMessengerShareKit.framework */,
+				52FF206A1BA69646005CFF66 /* FBSDKShareKit.framework */,
+				DD3FD157A8D722C26D4A858F /* Pods_Happimess.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		529BFF7F1BA58EFA0030A892 = {
 			isa = PBXGroup;
 			children = (
 				529BFF8A1BA58EFA0030A892 /* Happimess */,
 				529BFF891BA58EFA0030A892 /* Products */,
+				8FAB4BDDCBA6ED8D51895C34 /* Pods */,
+				45FF6332AC103BC1F388380F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +96,24 @@
 			children = (
 				529BFF8B1BA58EFA0030A892 /* AppDelegate.swift */,
 				529BFF8D1BA58EFA0030A892 /* ViewController.swift */,
+				524877491BAFFE3E00791F2B /* ConfirmProfileViewController.swift */,
+				520A5C651BB14D6800A1AFF4 /* SearchUniversity.swift */,
+				520A5C671BB1525900A1AFF4 /* University.swift */,
 				529BFF8F1BA58EFA0030A892 /* Main.storyboard */,
 				529BFF921BA58EFA0030A892 /* Assets.xcassets */,
 				529BFF941BA58EFA0030A892 /* LaunchScreen.storyboard */,
 				529BFF971BA58EFA0030A892 /* Info.plist */,
 			);
 			path = Happimess;
+			sourceTree = "<group>";
+		};
+		8FAB4BDDCBA6ED8D51895C34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C78C9E17DD0A3718E212D9E /* Pods-Happimess.debug.xcconfig */,
+				B017F3A7C2C9242B20374031 /* Pods-Happimess.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 529BFF9A1BA58EFA0030A892 /* Build configuration list for PBXNativeTarget "Happimess" */;
 			buildPhases = (
+				4796AD8381B9E685167871AC /* Check Pods Manifest.lock */,
 				529BFF841BA58EFA0030A892 /* Sources */,
 				529BFF851BA58EFA0030A892 /* Frameworks */,
 				529BFF861BA58EFA0030A892 /* Resources */,
+				9A56211369D08A613306A674 /* Copy Pods Resources */,
+				8B8969CDE7B932D2F6F58AB4 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -90,11 +145,13 @@
 		529BFF801BA58EFA0030A892 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Nikita Feshchun";
 				TargetAttributes = {
 					529BFF871BA58EFA0030A892 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 9QTU947L2N;
 					};
 				};
 			};
@@ -124,18 +181,70 @@
 				529BFF961BA58EFA0030A892 /* LaunchScreen.storyboard in Resources */,
 				529BFF931BA58EFA0030A892 /* Assets.xcassets in Resources */,
 				529BFF911BA58EFA0030A892 /* Main.storyboard in Resources */,
+				52FF20701BA69C4E005CFF66 /* FacebookSDKStrings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4796AD8381B9E685167871AC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B8969CDE7B932D2F6F58AB4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Happimess/Pods-Happimess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A56211369D08A613306A674 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Happimess/Pods-Happimess-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		529BFF841BA58EFA0030A892 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520A5C661BB14D6800A1AFF4 /* SearchUniversity.swift in Sources */,
 				529BFF8E1BA58EFA0030A892 /* ViewController.swift in Sources */,
 				529BFF8C1BA58EFA0030A892 /* AppDelegate.swift in Sources */,
+				5248774A1BAFFE3E00791F2B /* ConfirmProfileViewController.swift in Sources */,
+				520A5C681BB1525900A1AFF4 /* University.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,23 +353,41 @@
 		};
 		529BFF9B1BA58EFA0030A892 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C78C9E17DD0A3718E212D9E /* Pods-Happimess.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Happimess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Happimess;
+				PRODUCT_BUNDLE_IDENTIFIER = net.happimess.HappiMess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		529BFF9C1BA58EFA0030A892 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B017F3A7C2C9242B20374031 /* Pods-Happimess.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Happimess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Happimess;
+				PRODUCT_BUNDLE_IDENTIFIER = net.happimess.HappiMess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -283,6 +410,7 @@
 				529BFF9C1BA58EFA0030A892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

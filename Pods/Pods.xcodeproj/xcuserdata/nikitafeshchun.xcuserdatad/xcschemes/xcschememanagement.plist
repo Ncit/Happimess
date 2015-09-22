@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JVFloatLabeledTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Parse.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Happimess.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>VK-ios-sdk.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>046145EB592291974C825A9930C777AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>276079BB8AF8B17AF89A61F1BD757EE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>40A87D33EF44DC593F345D51C4CFE365</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5D8B299146B9F7FB277BC661A9B93C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F31314CE054F880F5C248D139572E2A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
