@@ -10,16 +10,24 @@ import UIKit
 
 class SearchUniversity : UITableViewController, UISearchBarDelegate, UISearchDisplayDelegate {
     
-    let universities : [Univercity] = [Univercity(name: "Univercity 1"),Univercity(name: "Univercity 2"),Univercity(name: "Univercity 3"),Univercity(name: "Univercity 4")]
+    
+    var universityDelegate: SetupUniversityDelegate?
+    var department: SetupUniversityDelegate?
+    var universities : [Univercity] = [Univercity(name: "Univercity 1"),Univercity(name: "Univercity 2"),Univercity(name: "Univercity 3"),Univercity(name: "Univercity 4")]
+    let departments : [Univercity] = [Univercity(name: "Department 1"),Univercity(name: "Department 2"),Univercity(name: "Department 3"),Univercity(name: "Department 4")]
+    
     var filteredUnivercities : [Univercity] = []
     var searchActive : Bool = false
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.tableView.reloadData()
         
+        self.tableView.reloadData()
+        if (department != nil) {
+            universities = departments
+        }
+        self.tableView.registerNib(UINib(nibName: "DropDownCell", bundle: nil), forCellReuseIdentifier: "DropDownCellID")
     }
- 
+    
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if(searchActive) {
@@ -43,12 +51,21 @@ class SearchUniversity : UITableViewController, UISearchBarDelegate, UISearchDis
         
         // Configure the cell
         cell.textLabel!.text = university.name
-        cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
+//        cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
         
         return cell
     }
     
+    
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if (department != nil) {
+            department?.setupUniversity(self.universities[indexPath.row].name)
+        } else {
+            universityDelegate?.setupUniversity(self.universities[indexPath.row].name)
+        }
+        if let navController = self.navigationController {
+            navController.popViewControllerAnimated(true)
+        }
         
     }
     

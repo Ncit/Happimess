@@ -10,6 +10,9 @@ import UIKit
 import Parse
 import Bolts
 import FBSDKCoreKit
+import Fabric
+import Crashlytics
+import PassKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,18 +26,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Parse.enableLocalDatastore()
         
         // Initialize Parse.
-        Parse.setApplicationId("I5r3Nnxlixotadu1RLZRWVENE0Dkf6V4r2kuJFO",
+        Parse.setApplicationId("I5r3Nnxlixotadu1RLZRWVENE0Dkf6V4r2kuJFO7",
             clientKey: "wMmLsr5Weli0v0IYsH0PaZ1Qh4Lh9EHXARi03Y05")
         
         // [Optional] Track statistics around application opens.
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
         FBSDKApplicationDelegate.sharedInstance().application(application,didFinishLaunchingWithOptions: launchOptions)
+        Fabric.with([Crashlytics.self()])
         return true
     }
     
-    func openUrl(application: UIApplication, openURL url: NSURL, sourceApplication: String, annotation: AnyObject) -> Bool {
-           FBSDKApplicationDelegate.sharedInstance().application(application, openURL: url, sourceApplication: sourceApplication as String, annotation: annotation)
-            return true
+    func application(application: UIApplication,
+        openURL url: NSURL,
+        sourceApplication: String?,
+        annotation: AnyObject) -> Bool {
+            return FBSDKApplicationDelegate.sharedInstance().application(
+                application,
+                openURL: url,
+                sourceApplication: sourceApplication,
+                annotation: annotation)
     }
 
 //    -(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
@@ -58,7 +68,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidBecomeActive(application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
        FBSDKAppEvents.activateApp()
     }
 

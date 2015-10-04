@@ -5,5 +5,13 @@ target 'Happimess' do
 pod 'Parse'
 pod "VK-ios-sdk"
 pod 'JVFloatLabeledTextField'
-pod 'BTNavigationDropdownMenu'
+pod 'Fabric'
+pod 'Crashlytics'
+pod 'ParseUI'
+pod 'ParseFacebookUtils'
+pod 'SDWebImage', '~>3.7'
+pod "DynamicBlurView"
+pod "ParallaxBlur"
+pod 'RSKImageCropper'
+pod "SABlurImageView"
 end

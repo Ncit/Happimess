@@ -82,16 +82,32 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-Happimess/BTNavigationDropdownMenu.framework"
   install_framework "Pods-Happimess/Bolts.framework"
+  install_framework "Pods-Happimess/DynamicBlurView.framework"
+  install_framework "Pods-Happimess/FXBlurView.framework"
+  install_framework "Pods-Happimess/FacebookSDK.framework"
   install_framework "Pods-Happimess/JVFloatLabeledTextField.framework"
+  install_framework "Pods-Happimess/ParallaxBlur.framework"
   install_framework "Pods-Happimess/Parse.framework"
+  install_framework "Pods-Happimess/ParseFacebookUtils.framework"
+  install_framework "Pods-Happimess/ParseUI.framework"
+  install_framework "Pods-Happimess/RSKImageCropper.framework"
+  install_framework "Pods-Happimess/SABlurImageView.framework"
+  install_framework "Pods-Happimess/SDWebImage.framework"
   install_framework "Pods-Happimess/VK_ios_sdk.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-Happimess/BTNavigationDropdownMenu.framework"
   install_framework "Pods-Happimess/Bolts.framework"
+  install_framework "Pods-Happimess/DynamicBlurView.framework"
+  install_framework "Pods-Happimess/FXBlurView.framework"
+  install_framework "Pods-Happimess/FacebookSDK.framework"
   install_framework "Pods-Happimess/JVFloatLabeledTextField.framework"
+  install_framework "Pods-Happimess/ParallaxBlur.framework"
   install_framework "Pods-Happimess/Parse.framework"
+  install_framework "Pods-Happimess/ParseFacebookUtils.framework"
+  install_framework "Pods-Happimess/ParseUI.framework"
+  install_framework "Pods-Happimess/RSKImageCropper.framework"
+  install_framework "Pods-Happimess/SABlurImageView.framework"
+  install_framework "Pods-Happimess/SDWebImage.framework"
   install_framework "Pods-Happimess/VK_ios_sdk.framework"
 fi

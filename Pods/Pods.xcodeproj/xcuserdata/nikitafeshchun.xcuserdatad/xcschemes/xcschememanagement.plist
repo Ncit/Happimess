@@ -4,12 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BTNavigationDropdownMenu.xcscheme</key>
+		<key>Bolts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Bolts.xcscheme</key>
+		<key>DynamicBlurView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FXBlurView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Facebook-iOS-SDK.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -19,12 +29,42 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ParallaxBlur.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Parse.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ParseFacebookUtils.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ParseUI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Happimess.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RSKImageCropper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SABlurImageView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,32 +77,72 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>49CC847C2E141904F144B96E2FF93920</key>
+		<key>04ABC959D12A322167F19BCC9804A229</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4E7472150BAB4495652FA9D78D19A348</key>
+		<key>07914C0912E9CA427308D96CB28DE616</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>91C1B23FF4722CDFD645E5C20BE94917</key>
+		<key>10C705F91BEC6569B62783AB28B997E4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B6D1A111FDA4E05E96F86AB819CBB0C3</key>
+		<key>3A77784653C07B7086FF67308806E164</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DD2968A4EF2C8F514F9E4A9C7A84BE9B</key>
+		<key>457D09D2B9E99F2E02A8A8EC593A502A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EBB58AEA5C97CBE5581BCF7523411076</key>
+		<key>6C56BE2F313AEF66F163F67DFB193C0F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8170C99395A8F97CD0F6D8EEC3091444</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8323B15D238E1CC1BF5699811A6497EF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BFD1392642C1248E7497AA851001C5ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C31333DBBE4E6ECEADD1C537DF153ABA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D389E61F0A5AEA23439C8CD4E5A85B90</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DCBBA0F247750467C7C6E051BA4C3235</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F75446CE38DB10D0255E54ED17ECBF6D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC2743808B6D3BC4D66611CD8DD69815</key>
 		<dict>
 			<key>primary</key>
 			<true/>
